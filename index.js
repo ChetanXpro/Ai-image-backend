@@ -3,9 +3,8 @@ const cors = require("cors");
 const express = require("express");
 const port = 5000;
 const allowedOrigins = [
-  "http://localhost:5173/",
-  "http://localhost:5173",
-  "https://ai-image-lake.vercel.app/",
+  "https://ai-image-lake.vercel.app",
+  "ai-image-pr7iiyzpl-chetanxpro.vercel.app"
 ];
 
 const corsOption = {
