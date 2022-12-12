@@ -2,7 +2,11 @@ require("dotenv").config();
 const cors = require("cors");
 const express = require("express");
 const port = 5000;
-const allowedOrigins = ["http://localhost:5173/", "http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:5173/",
+  "http://localhost:5173",
+  "https://ai-image-lake.vercel.app/",
+];
 
 const corsOption = {
   origin: (origin, callback) => {
